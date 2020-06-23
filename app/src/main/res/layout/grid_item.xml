@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/border">
+
+    <ImageView
+        android:layout_height="55dp"
+        android:layout_width="55dp"
+        android:scaleType="fitXY"
+        android:id="@+id/image_cat"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Medium Text"
+        android:id="@+id/text_cat"
+        android:padding="9dp"
+        android:ellipsize="middle"
+        android:scrollHorizontally="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
